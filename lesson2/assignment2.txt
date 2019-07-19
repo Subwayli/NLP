@@ -1,0 +1,21 @@
+1. Why do we need machine learning methods instead of creating a complicated formula?
+Ans:人工演算公式，靠的是猜测，时间，精力；除了最开始的构想之外，其他的都是计算机更在行。
+
+2. What's the disadvantages of the 1st Random Choosen methods in our course?
+Ans:靠随机性生成参数，有可能会在比较少的尝试次数中达到很好的成绩；但是很难达到最佳，只能凭运气。
+
+3. Is the 2nd method supervised direction better than 1st one? What's the disadvantages of the 2nd supversied directin method?
+Ans:好是相对的，在万次尝试中，随机的方法更有可能达到更好的结果【该课程案例中，起始为随机参数】。
+	可监督的方法，给了我们一种可以控制的优化方向的方法；如果次数足够，可以无限接近最佳参数。
+
+4. Why do we use Derivative / Gredient to fit a target function?
+Ans:
+
+5. In the words 'Gredient Descent', what's the Gredient and what's the Descent?
+Ans:
+
+6. What's the advantages of the 3rd gradient descent method compared to the previous methods?
+Ans:
+
+7. Using the simple words to describe: What's the machine leanring.
+Ans:
