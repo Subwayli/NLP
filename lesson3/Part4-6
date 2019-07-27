@@ -1,0 +1,62 @@
+Part4: 
+
+Choose 1-2 books to keep reading:
+
+A: 
+
+Fluent Python 已看完一遍，元编程和协程部分后续还要二刷。 
+目前正在看 数学之美，算法导论刚到手也正准备看
+
+请教下老师
+1.对于数学公式的推导要看哪些数学基础呢？有推荐的资料吗？
+2.对于算法，是不是可以熟能生巧？还是有更优秀的学习方法？
+
+Part5-1：
+
+Why do we use Derivative / Gradient to fit a target function?¶
+Ans: 寻找一个更有效率的可监督训练过程。
+
+In the words 'Gredient Descent', what's the Gredient and what's the Descent?¶
+Ans:
+	Gredient:梯度，函数模型中导数
+	Descent: 向导数的反方向变化，逐渐靠近极值的范围
+
+What's the advantages of the 3rd gradient descent method compared to the previous methods?
+Ans:
+	相对于前两种方法，梯度下降不仅是可监督的训练过程，而且具有更快的训练速度
+
+Using the simple words to describe: What's the machine leanring.¶
+Ans:
+	机器实现算法
+
+
+Part5-2：
+
+Q: Why do we need dynamic programming? What's the difference of dynamic programming and previous talked search problme?
+
+A: Dynamic Programming 可以将大问题采用分治法分成多个小问题进行处理，同时可以缓存已经得到结果的问题，提升效率。
+
+Q: Why do we still need dynamic programming? Why not we train a machine learning to fit a function which could get the right answer based on inputs?
+
+A: 动态规划不需要要训练过程，只是算法；同时，机器学习的本质也是数据+算法；对于不同的需求，采用不同的技术。
+
+Q: Can you catch up at least 3 problems which could solved by Dynamic Programming?
+
+A: 可以使用递归的问题，应该都可以使用动态规划吧。
+
+Q: Can you catch up at least 3 problems wich could sloved by Edit Distance?
+
+A: 单词纠错，模糊查询，实体链接
+
+Q: Please summarize the three main features of Dynamic Programming, and make a concise explain for each feature.
+
+A: 拆分复杂问题， 缓存相同问题，寻找最优解
+
+Q: What's the disadvantages of Dynamic Programming? (You may need search by yourself in Internet)
+
+A: 网上说：没有标准模型和维数灾的问题，现在还理解不了。
+
+
+Part6：
+	可以用Django实现小型网站，后续会了解tornado和flask
+	sql 和 简单的HTML

@@ -13,34 +13,10 @@ import matplotlib.pyplot as plt
 import random
 
 
-
-
-# df_X = pd.DataFrame(X, columns=boston.feature_names)
-#
-# print('--- %s ---' % 'df.head')
-# print(df_X.head())
-# print(y[:5])
-
-#
-# X_rm = X[:, 5]
-# k = random.randint(-100, 100)
-# b = random.randint(-100, 100)
 def price(rm, k, b):
 	return k*rm + b
-#
-# def draw_rm_and_price():
-# 	plt.scatter(X[:, 5], y)
-#
-# print(k, b)
-# price_by_random_k_and_b = [price(r, k, b) for r in X_rm]
-#
-# print(len(price_by_random_k_and_b))
-# print(len(X_rm))
-#
-# # draw_rm_and_price()
-# plt.scatter(X[:, 5], y)
-# plt.scatter(X_rm, price_by_random_k_and_b)
-# plt.show()
+
+
 def draw(k, b):
 	boston = load_boston()
 	X, y = boston.data, boston.target
@@ -109,6 +85,6 @@ def adjusting_get_best_kb():
 
 
 draw(8.351, -29.747)
-adjusting_get_best_kb()
 random_get_best_kb()
+adjusting_get_best_kb()
 
